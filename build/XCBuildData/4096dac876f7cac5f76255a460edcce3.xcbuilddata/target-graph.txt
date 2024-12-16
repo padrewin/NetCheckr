@@ -1,0 +1,11 @@
+Target dependency graph (5 targets)
+Target 'NetCheckr' in project 'NetCheckr'
+➜ Explicit dependency on target 'LaunchAtLoginHelper' in project 'NetCheckr'
+➜ Explicit dependency on target 'LaunchAtLogin' in project 'LaunchAtLogin'
+Target 'LaunchAtLogin' in project 'LaunchAtLogin'
+➜ Explicit dependency on target 'LaunchAtLogin' in project 'LaunchAtLogin'
+➜ Explicit dependency on target 'LaunchAtLogin_LaunchAtLogin' in project 'LaunchAtLogin'
+Target 'LaunchAtLogin' in project 'LaunchAtLogin'
+➜ Explicit dependency on target 'LaunchAtLogin_LaunchAtLogin' in project 'LaunchAtLogin'
+Target 'LaunchAtLogin_LaunchAtLogin' in project 'LaunchAtLogin' (no dependencies)
+Target 'LaunchAtLoginHelper' in project 'NetCheckr' (no dependencies)

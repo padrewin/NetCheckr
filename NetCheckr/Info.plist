@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <key>LSUIElement</key>
+    <true/>
+
+    <!-- Stilul notificărilor -->
+    <key>NSUserNotificationAlertStyle</key>
+    <string>banner</string>
+
+    <!-- Configurări pentru aplicația principală -->
+    <key>CFBundleIdentifier</key>
+    <string>dev.padrewin.NetCheckr</string>
+    <key>CFBundleName</key>
+    <string>NetCheckr</string>
+    <key>CFBundleDisplayName</key>
+    <string>NetCheckr</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+
+    <!-- Aplicația este optimizată pentru ecrane cu rezoluție mare -->
+    <key>NSHighResolutionCapable</key>
+    <true/>
+
+    <!-- Declarații de securitate -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+</dict>
+</plist>

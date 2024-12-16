@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D75D6902D10394500E85165 /* LaunchAtLoginHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D5BCDF82D0FA5BA0002721C /* LaunchAtLoginHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8DE8A87F2D104A2200E1D5FC /* LaunchAtLoginHelper.app in Resources */ = {isa = PBXBuildFile; fileRef = 8D5BCDF82D0FA5BA0002721C /* LaunchAtLoginHelper.app */; };
+		8DE8A8832D104A7E00E1D5FC /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 8DE8A8822D104A7E00E1D5FC /* LaunchAtLogin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D5BCE0F2D0FA9090002721C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D5BCD9B2D0F6BFA0002721C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5BCDF72D0FA5BA0002721C;
+			remoteInfo = LaunchAtLoginHelper;
+		};
+		8D75D6832D1035A900E85165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D5BCD9B2D0F6BFA0002721C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5BCDF72D0FA5BA0002721C;
+			remoteInfo = LaunchAtLoginHelper;
+		};
+		8D75D6852D1035B200E85165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D5BCD9B2D0F6BFA0002721C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5BCDF72D0FA5BA0002721C;
+			remoteInfo = LaunchAtLoginHelper;
+		};
+		8D75D6892D1035BE00E85165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D5BCD9B2D0F6BFA0002721C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5BCDF72D0FA5BA0002721C;
+			remoteInfo = LaunchAtLoginHelper;
+		};
+		8D75D68B2D10385C00E85165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D5BCD9B2D0F6BFA0002721C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5BCDF72D0FA5BA0002721C;
+			remoteInfo = LaunchAtLoginHelper;
+		};
+		8D75D68D2D10386000E85165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D5BCD9B2D0F6BFA0002721C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5BCDF72D0FA5BA0002721C;
+			remoteInfo = LaunchAtLoginHelper;
+		};
+		8D75D6932D10425100E85165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D5BCD9B2D0F6BFA0002721C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5BCDF72D0FA5BA0002721C;
+			remoteInfo = LaunchAtLoginHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D75D68F2D10391E00E85165 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				8D75D6902D10394500E85165 /* LaunchAtLoginHelper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D5BCDF82D0FA5BA0002721C /* LaunchAtLoginHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchAtLoginHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5BCE112D0FAA820002721C /* NetCheckr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = NetCheckr.app; path = /Users/padrewin/xCode/NetCheckr/build/Debug/NetCheckr.app; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8D71EBD02D10551200541DC2 /* Exceptions for "NetCheckr" folder in "LaunchAtLoginHelper" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8D5BCDF72D0FA5BA0002721C /* LaunchAtLoginHelper */;
+		};
+		8DE8A8802D104A4200E1D5FC /* Exceptions for "LaunchAtLoginHelper" folder in "LaunchAtLoginHelper" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8D5BCDF72D0FA5BA0002721C /* LaunchAtLoginHelper */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8D5BCDA52D0F6BFA0002721C /* NetCheckr */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8D71EBD02D10551200541DC2 /* Exceptions for "NetCheckr" folder in "LaunchAtLoginHelper" target */,
+			);
+			path = NetCheckr;
+			sourceTree = "<group>";
+		};
+		8D5BCDF92D0FA5BA0002721C /* LaunchAtLoginHelper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8DE8A8802D104A4200E1D5FC /* Exceptions for "LaunchAtLoginHelper" folder in "LaunchAtLoginHelper" target */,
+			);
+			path = LaunchAtLoginHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5BCDA02D0F6BFA0002721C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE8A8832D104A7E00E1D5FC /* LaunchAtLogin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5BCDF52D0FA5BA0002721C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D5BCD9A2D0F6BFA0002721C = {
+			isa = PBXGroup;
+			children = (
+				8D5BCDA52D0F6BFA0002721C /* NetCheckr */,
+				8D5BCDF82D0FA5BA0002721C /* LaunchAtLoginHelper.app */,
+				8D5BCDF92D0FA5BA0002721C /* LaunchAtLoginHelper */,
+				8D5BCE0D2D0FA9090002721C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D5BCE0D2D0FA9090002721C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5BCDA22D0F6BFA0002721C /* NetCheckr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5BCDB22D0F6BFB0002721C /* Build configuration list for PBXNativeTarget "NetCheckr" */;
+			buildPhases = (
+				8D5BCD9F2D0F6BFA0002721C /* Sources */,
+				8D5BCDA02D0F6BFA0002721C /* Frameworks */,
+				8D5BCDA12D0F6BFA0002721C /* Resources */,
+				8D75D68F2D10391E00E85165 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D5BCE102D0FA9090002721C /* PBXTargetDependency */,
+				8D75D6842D1035A900E85165 /* PBXTargetDependency */,
+				8D75D6862D1035B200E85165 /* PBXTargetDependency */,
+				8D75D68A2D1035BE00E85165 /* PBXTargetDependency */,
+				8D75D68C2D10385C00E85165 /* PBXTargetDependency */,
+				8D75D68E2D10386000E85165 /* PBXTargetDependency */,
+				8D75D6942D10425100E85165 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8D5BCDA52D0F6BFA0002721C /* NetCheckr */,
+			);
+			name = NetCheckr;
+			packageProductDependencies = (
+				8DE8A8822D104A7E00E1D5FC /* LaunchAtLogin */,
+			);
+			productName = NetCheckr;
+			productReference = 8D5BCE112D0FAA820002721C /* NetCheckr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D5BCDF72D0FA5BA0002721C /* LaunchAtLoginHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5BCE042D0FA5BB0002721C /* Build configuration list for PBXNativeTarget "LaunchAtLoginHelper" */;
+			buildPhases = (
+				8D5BCDF42D0FA5BA0002721C /* Sources */,
+				8D5BCDF52D0FA5BA0002721C /* Frameworks */,
+				8D5BCDF62D0FA5BA0002721C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8D5BCDF92D0FA5BA0002721C /* LaunchAtLoginHelper */,
+			);
+			name = LaunchAtLoginHelper;
+			packageProductDependencies = (
+			);
+			productName = LaunchAtLoginHelper;
+			productReference = 8D5BCDF82D0FA5BA0002721C /* LaunchAtLoginHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D5BCD9B2D0F6BFA0002721C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8D5BCDA22D0F6BFA0002721C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8D5BCDF72D0FA5BA0002721C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 8D5BCD9E2D0F6BFA0002721C /* Build configuration list for PBXProject "NetCheckr" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D5BCD9A2D0F6BFA0002721C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8DE8A8812D104A7E00E1D5FC /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8D5BCD9A2D0F6BFA0002721C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5BCDA22D0F6BFA0002721C /* NetCheckr */,
+				8D5BCDF72D0FA5BA0002721C /* LaunchAtLoginHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5BCDA12D0F6BFA0002721C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE8A87F2D104A2200E1D5FC /* LaunchAtLoginHelper.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5BCDF62D0FA5BA0002721C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5BCD9F2D0F6BFA0002721C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5BCDF42D0FA5BA0002721C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D5BCE102D0FA9090002721C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5BCDF72D0FA5BA0002721C /* LaunchAtLoginHelper */;
+			targetProxy = 8D5BCE0F2D0FA9090002721C /* PBXContainerItemProxy */;
+		};
+		8D75D6842D1035A900E85165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5BCDF72D0FA5BA0002721C /* LaunchAtLoginHelper */;
+			targetProxy = 8D75D6832D1035A900E85165 /* PBXContainerItemProxy */;
+		};
+		8D75D6862D1035B200E85165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5BCDF72D0FA5BA0002721C /* LaunchAtLoginHelper */;
+			targetProxy = 8D75D6852D1035B200E85165 /* PBXContainerItemProxy */;
+		};
+		8D75D68A2D1035BE00E85165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5BCDF72D0FA5BA0002721C /* LaunchAtLoginHelper */;
+			targetProxy = 8D75D6892D1035BE00E85165 /* PBXContainerItemProxy */;
+		};
+		8D75D68C2D10385C00E85165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5BCDF72D0FA5BA0002721C /* LaunchAtLoginHelper */;
+			targetProxy = 8D75D68B2D10385C00E85165 /* PBXContainerItemProxy */;
+		};
+		8D75D68E2D10386000E85165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5BCDF72D0FA5BA0002721C /* LaunchAtLoginHelper */;
+			targetProxy = 8D75D68D2D10386000E85165 /* PBXContainerItemProxy */;
+		};
+		8D75D6942D10425100E85165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5BCDF72D0FA5BA0002721C /* LaunchAtLoginHelper */;
+			targetProxy = 8D75D6932D10425100E85165 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D5BCDB02D0F6BFB0002721C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALLl = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				asd = YES;
+			};
+			name = Debug;
+		};
+		8D5BCDB12D0F6BFB0002721C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALLl = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				asd = YES;
+			};
+			name = Release;
+		};
+		8D5BCDB32D0F6BFB0002721C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = NetCheckr/NetCheckr.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NetCheckr/Preview Content\"";
+				DEVELOPMENT_TEAM = C74584NLRZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetCheckr/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NetCheckr;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.padrewin.NetCheckr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D5BCDB42D0F6BFB0002721C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = NetCheckr/NetCheckr.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NetCheckr/Preview Content\"";
+				DEVELOPMENT_TEAM = C74584NLRZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetCheckr/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NetCheckr;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.padrewin.NetCheckr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8D5BCE052D0FA5BB0002721C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LaunchAtLoginHelper/LaunchAtLoginHelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LaunchAtLoginHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = C74584NLRZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.padrewin.LaunchAtLoginHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALLl = SKIP_INSTALL;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D5BCE062D0FA5BB0002721C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LaunchAtLoginHelper/LaunchAtLoginHelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LaunchAtLoginHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = C74584NLRZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.padrewin.LaunchAtLoginHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALLl = SKIP_INSTALL;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D5BCD9E2D0F6BFA0002721C /* Build configuration list for PBXProject "NetCheckr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5BCDB02D0F6BFB0002721C /* Debug */,
+				8D5BCDB12D0F6BFB0002721C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5BCDB22D0F6BFB0002721C /* Build configuration list for PBXNativeTarget "NetCheckr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5BCDB32D0F6BFB0002721C /* Debug */,
+				8D5BCDB42D0F6BFB0002721C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5BCE042D0FA5BB0002721C /* Build configuration list for PBXNativeTarget "LaunchAtLoginHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5BCE052D0FA5BB0002721C /* Debug */,
+				8D5BCE062D0FA5BB0002721C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8DE8A8812D104A7E00E1D5FC /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8DE8A8822D104A7E00E1D5FC /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DE8A8812D104A7E00E1D5FC /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8D5BCD9B2D0F6BFA0002721C /* Project object */;
+}

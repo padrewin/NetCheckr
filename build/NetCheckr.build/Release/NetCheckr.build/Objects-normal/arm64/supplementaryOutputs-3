@@ -1,0 +1,9 @@
+"/Users/padrewin/xCode/NetCheckr/NetCheckr/AppDelegate.swift":
+  objc-header: "/Users/padrewin/xCode/NetCheckr/build/NetCheckr.build/Release/NetCheckr.build/Objects-normal/arm64/NetCheckr-Swift.h"
+  swiftmodule: "/Users/padrewin/xCode/NetCheckr/build/NetCheckr.build/Release/NetCheckr.build/Objects-normal/arm64/NetCheckr.swiftmodule"
+  swiftdoc: "/Users/padrewin/xCode/NetCheckr/build/NetCheckr.build/Release/NetCheckr.build/Objects-normal/arm64/NetCheckr.swiftdoc"
+  const-values: "/Users/padrewin/xCode/NetCheckr/build/NetCheckr.build/Release/NetCheckr.build/Objects-normal/arm64/NetCheckr-master.swiftconstvalues"
+  dependencies: "/Users/padrewin/xCode/NetCheckr/build/NetCheckr.build/Release/NetCheckr.build/Objects-normal/arm64/NetCheckr-master.d"
+  abi-baseline-json: "/Users/padrewin/xCode/NetCheckr/build/NetCheckr.build/Release/NetCheckr.build/Objects-normal/arm64/NetCheckr.abi.json"
+  swiftsourceinfo: "/Users/padrewin/xCode/NetCheckr/build/NetCheckr.build/Release/NetCheckr.build/Objects-normal/arm64/NetCheckr.swiftsourceinfo"
+  diagnostics: "/Users/padrewin/xCode/NetCheckr/build/NetCheckr.build/Release/NetCheckr.build/Objects-normal/arm64/NetCheckr-master.dia"

@@ -1,0 +1,5 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/padrewin/xCode/NetCheckr/build/Release/LaunchAtLoginHelper.app/Contents/MacOS/LaunchAtLoginHelper'
+relocations:     []
+...
