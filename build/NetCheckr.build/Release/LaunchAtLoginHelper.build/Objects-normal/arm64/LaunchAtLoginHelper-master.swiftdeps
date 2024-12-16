@@ -1,8 +1,0 @@
-version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
-options: "5bd31f0dbd804467fc584d21abc49576bf996bcfcd9243c34e48fc02a41a36c8"
-build_start_time: [1734349341, 824603000]
-build_end_time: [1734349345, 804439000]
-inputs:
-  "/Users/padrewin/xCode/NetCheckr/LaunchAtLoginHelper/LaunchAtLoginHelperApp.swift": [1734348484, 776697646]
-  ? "/Users/padrewin/xCode/NetCheckr/build/NetCheckr.build/Release/LaunchAtLoginHelper.build/DerivedSources/GeneratedAssetSymbols.swift"
-  : [1734349340, 906570381]

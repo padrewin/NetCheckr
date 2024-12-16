@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D75D6902D10394500E85165 /* LaunchAtLoginHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D5BCDF82D0FA5BA0002721C /* LaunchAtLoginHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8DE8A87F2D104A2200E1D5FC /* LaunchAtLoginHelper.app in Resources */ = {isa = PBXBuildFile; fileRef = 8D5BCDF82D0FA5BA0002721C /* LaunchAtLoginHelper.app */; };
 		8DE8A8832D104A7E00E1D5FC /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 8DE8A8822D104A7E00E1D5FC /* LaunchAtLogin */; };
 /* End PBXBuildFile section */
 
@@ -71,15 +69,14 @@
 			dstPath = Contents/Library/LoginItems;
 			dstSubfolderSpec = 1;
 			files = (
-				8D75D6902D10394500E85165 /* LaunchAtLoginHelper.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8D5BCDF82D0FA5BA0002721C /* LaunchAtLoginHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchAtLoginHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D5BCE112D0FAA820002721C /* NetCheckr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = NetCheckr.app; path = /Users/padrewin/xCode/NetCheckr/build/Debug/NetCheckr.app; sourceTree = "<absolute>"; };
+		8D5BCDF82D0FA5BA0002721C /* LaunchAtLoginHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = LaunchAtLoginHelper.app; path = /Users/padrewin/xCode/NetCheckr/build/Debug/LaunchAtLoginHelper.app; sourceTree = "<absolute>"; };
+		8DE863292D10F1070050FD30 /* NetCheckr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = NetCheckr.app; path = /Users/padrewin/xCode/NetCheckr/build/Debug/NetCheckr.app; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -141,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				8D5BCDA52D0F6BFA0002721C /* NetCheckr */,
-				8D5BCDF82D0FA5BA0002721C /* LaunchAtLoginHelper.app */,
 				8D5BCDF92D0FA5BA0002721C /* LaunchAtLoginHelper */,
 				8D5BCE0D2D0FA9090002721C /* Frameworks */,
 			);
@@ -185,7 +181,7 @@
 				8DE8A8822D104A7E00E1D5FC /* LaunchAtLogin */,
 			);
 			productName = NetCheckr;
-			productReference = 8D5BCE112D0FAA820002721C /* NetCheckr.app */;
+			productReference = 8DE863292D10F1070050FD30 /* NetCheckr.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8D5BCDF72D0FA5BA0002721C /* LaunchAtLoginHelper */ = {
@@ -256,7 +252,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DE8A87F2D104A2200E1D5FC /* LaunchAtLoginHelper.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
